@@ -1,0 +1,15 @@
+{
+  "name": "scout-engine-app",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Scout Engine scouting pipeline: local server, search and screening pages, dashboard",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test test/"
+  },
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.128.0",
+    "zod": "^4.6.5"
+  }
+}
