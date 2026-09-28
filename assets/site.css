@@ -118,9 +118,7 @@
   .nav .nav-link { display: none; }
   @media (min-width: 720px) { .nav .nav-link { display: inline; } }
 
-  /* What you receive */
-  .receive { padding: 112px 0 0; }
-  .receive .eyebrow { margin-bottom: 20px; }
+  /* Page titles */
   .section-title {
     font-size: clamp(32px, 4vw, 48px);
     line-height: 1.1;
@@ -128,32 +126,6 @@
     margin: 0 0 56px;
     max-width: 22ch;
   }
-  .receive-list { display: grid; gap: 56px; }
-  .receive-item {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr));
-    gap: 12px clamp(28px, 4vw, 64px);
-    align-items: baseline;
-    scroll-margin-top: 96px;
-  }
-  .receive-item .head { display: flex; align-items: baseline; gap: 20px; }
-  .receive-item .num {
-    font-family: var(--font-heading);
-    font-size: clamp(56px, 6vw, 84px);
-    line-height: 1;
-    font-weight: var(--font-heading-weight);
-    letter-spacing: -0.02em;
-    color: var(--color-accent-700);
-  }
-  .receive-item h2 {
-    font-size: 26px; line-height: 32px; letter-spacing: -0.01em;
-    margin: 0; max-width: 16ch;
-  }
-  .receive-item p {
-    margin: 0; max-width: 56ch; color: var(--text-80);
-    hyphens: auto; grid-column: span 2;
-  }
-  @media (max-width: 600px) { .receive-item p { grid-column: auto; } }
 
   /* Agentic search */
   .search { padding: 112px 0 0; scroll-margin-top: 80px; }
